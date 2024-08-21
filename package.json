@@ -1,6 +1,6 @@
 {
   "name": "tt-package-demo",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "A demo package for Total TypeScript",
   "keywords": [
     "demo",
@@ -43,6 +43,6 @@
     "format": "prettier --write .",
     "check-format": "prettier --check .",
     "check-exports": "attw --pack .",
-    "release": "npm run ci && changeset publish"
+    "local-release": "npm run ci && changeset version && changeset publish"
   }
 }
