@@ -29,6 +29,7 @@
   "type": "module",
   "devDependencies": {
     "@arethetypeswrong/cli": "^0.15.4",
+    "@changesets/cli": "^2.27.7",
     "prettier": "^3.3.3",
     "tsup": "^8.2.4",
     "typescript": "^5.5.4",
@@ -41,6 +42,7 @@
     "test": "vitest run",
     "format": "prettier --write .",
     "check-format": "prettier --check .",
-    "check-exports": "attw --pack ."
+    "check-exports": "attw --pack .",
+    "release": "npm run ci && changeset publish"
   }
 }
