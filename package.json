@@ -25,6 +25,8 @@
     "typescript": "^5.5.4"
   },
   "scripts": {
-    "build": "tsc"
+    "build": "tsc",
+    "ci": "npm run build",
+    "format": "prettier --write ."
   }
 }
